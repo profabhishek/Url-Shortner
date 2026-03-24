@@ -38,7 +38,7 @@ public class UrlService {
 
         repository.save(url);
 
-        return "http://localhost:8080/" + id;
+        return "https://url-shortner-3qxg.onrender.com/" + id;
     }
 
     public Optional<Url> getOriginalUrl(String id) {
